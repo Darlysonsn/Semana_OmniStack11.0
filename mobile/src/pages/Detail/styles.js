@@ -1,0 +1,81 @@
+import {StyleSheet} from 'react-native';
+import Constants from 'expo-constants';
+
+
+
+export default StyleSheet.create({
+        container:{
+        backgroundColor: '#ffcccc',
+        flex: 1,
+        paddingHorizontal: 20,
+        paddingTop: Constants.statusBarHeight + 20,
+        },
+
+        header:{
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+        },
+
+        incident:{
+            padding: 24,
+            borderRadius: 8,
+            backgroundColor: '#fff',
+            marginBottom: 16,
+            marginTop:  48,
+        },
+
+        incidentProperty: {
+            fontSize: 14,
+            fontWeight:'bold',
+            marginTop: 20,
+        },
+
+        incidentValue:{
+            marginTop: 8,
+            fontSize: 15,
+            color: '#d13d1f',
+        },
+
+        contactBox:{
+            padding: 8,
+            borderRadius: 8,
+            backgroundColor: '#fff',
+            marginBottom: 16,
+        },
+
+        heroTitle:{
+            fontWeight: 'bold',
+            fontSize: 20,
+            color: '#13131a',
+            lineHeight: 30,
+        },
+
+        heroDescription:{
+            fontSize: 15,
+            color: '#d13d1f',
+            marginTop: 16,
+        },
+
+        actions:{
+            marginTop: 16,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+        },
+
+        action:{
+            backgroundColor: '#e02041',
+            borderRadius: 8,
+            height: 50,
+            width: '48%',
+            justifyContent: 'center',
+            alignItems: 'center',
+        },
+
+        actionText:{
+            color: '#fff',
+            fontSize: 15,
+            fontWeight: 'bold',
+        },
+});
+
